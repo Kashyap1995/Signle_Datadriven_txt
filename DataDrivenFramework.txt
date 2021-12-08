@@ -1,0 +1,3 @@
+url=https://qjr-test.reshyne.com/portal/login
+username=qjr_test
+password=qjr_test
