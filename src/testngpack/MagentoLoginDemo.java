@@ -32,14 +32,11 @@ public class MagentoLoginDemo {
 		driver.findElement(By.id("username")).sendKeys(undata);
 		driver.findElement(By.id("password")).sendKeys(pdata);
 		
+		Thread.sleep(5000);
 		driver.findElement(By.id("login-button")).click();
 		
 		
-//		driver.findElement(By.linkText("Log out")).click();
-//
-//
-//		Thread.sleep(2000);
-//		driver.quit();
+
 	}
 
 }
